@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal; }
+
+body {
+  border-radius: 40px; }
+
+.container {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
+  border-radius: 8px; }
+
+.header__item {
+  display: flex; }
+  .header__item--img {
+    display: block;
+    padding: 31px 0 81px; }
+
+/*# sourceMappingURL=style_email_templates_2.css.map */

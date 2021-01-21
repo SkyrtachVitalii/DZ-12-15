@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  color: #FFFFFF;
+  width: 640px;
+  background: radial-gradient(80.56% 80.56% at 50% 19.44%, #2F2F2F 0%, #141415 100%), #313131; }
+  body a {
+    color: #FFFFFF;
+    text-decoration: none; }
+    body a:active {
+      color: aqua; }
+    body a:hover {
+      cursor: pointer; }
+
+.container {
+  margin: 0 auto;
+  padding: 15px;
+  color: #FFFFFF; }
+  .container--advantage {
+    padding: 45px 57px 0; }
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0 20px 15px; }
+
+.title {
+  padding-left: 6px; }
+  .title__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF; }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.nav {
+  display: flex; }
+  .nav__item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    display: flex;
+    padding: 8px; }
+
+.commercial {
+  display: flex;
+  justify-content: space-around; }
+  .commercial button {
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #51ACFF 0%, #1772C6 100%), #1890FF;
+    border-radius: 16px;
+    padding: 5px 20px 8px;
+    border: none;
+    margin-left: 16px; }
+    .commercial button:hover {
+      cursor: pointer; }
+    .commercial button:last-child {
+      margin-right: 19px; }
+
+.hr {
+  margin: 0 auto;
+  height: 1px;
+  width: 524px;
+  background: radial-gradient(6785.55% 865438.87% at 48.44% 99.92%, #414141 0%, rgba(33, 33, 34, 0) 100%); }
+
+.heading1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 58px;
+  text-align: center; }
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 34px auto 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px; }
+  .breadcrumb span:last-child {
+    padding-left: 22px;
+    align-items: center; }
+  .breadcrumb--arrow {
+    padding-left: 6px; }
+  .breadcrumb a {
+    color: #51ACFF;
+    text-decoration: none; }
+
+.title__img--item {
+  display: block;
+  margin: 0 auto; }
+
+.info {
+  margin: 0 auto;
+  padding: 25px 0 25px 25px;
+  width: 354px;
+  position: relative; }
+  .info__borderl {
+    top: 28px;
+    left: 0;
+    position: absolute;
+    width: 4px;
+    height: 58px;
+    background: linear-gradient(180deg, #FDA472 0%, #F7B78F 100%), #EDBB99; }
+  .info__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px; }
+
+.advantage {
+  background-image: url(../images/speedmetr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  display: flex;
+  justify-content: space-between; }
+  .advantage__card {
+    height: 88px;
+    margin-top: 65px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    border-bottom: 4px solid #EDBB99; }
+  .advantage__card:first-child {
+    margin-left: 111px; }
+  .advantage__card:last-child {
+    margin-right: 111px; }
+  .advantage__item--speed {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px; }
+
+.footer {
+  background: #313131;
+  padding: 0; }
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 48px 240px 33px; }
+
+.copyright {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #7D7D7D; }
+  .copyright__item--address {
+    padding-bottom: 9px; }
+
+.fmenu {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  padding: 27px 0 40px; }
+  .fmenu__item {
+    border-right: 1px solid #7D7D7D;
+    padding-right: 5px;
+    padding-left: 6px; }
+  .fmenu__item:last-child {
+    border: none; }
+
+/*# sourceMappingURL=style.css.map */
