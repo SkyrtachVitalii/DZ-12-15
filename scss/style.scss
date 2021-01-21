@@ -2,7 +2,7 @@ $text-color: #FFFFFF;
 $footer-font-size: 12px;
 $header_menu-font-size: 9px;
 $header-title: 16px;
-$cite-font-family: Inter sans-Serif;
+$cite-font-family: Inter, sans-Serif;
 
 *{
     margin: 0;
@@ -30,6 +30,9 @@ body{
     margin: 0 auto;
     padding: 15px;
     color: #FFFFFF;
+    &--advantage{
+      padding: 45px 57px 0;  
+    }
 }
 
 .box{
@@ -150,5 +153,81 @@ body{
         font-weight: bold;
         font-size: 24px;
         line-height: 29px;
+    }
+}
+
+.advantage{
+    background-image: url(../images/speedmetr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    &__card{
+        height: 88px;
+        margin-top: 65px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        border-bottom: 4px solid #EDBB99;
+    }
+    &__card:first-child{
+        margin-left: 111px;
+    }
+    &__card:last-child{
+        margin-right: 111px;
+    }
+    &__item{
+        &--speed{
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+        }
+    }
+}
+
+.footer{
+    background: #313131;
+    padding: 0;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 48px 240px 33px;
+}
+
+.copyright{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7D7D7D;
+    &__item{
+        &--address{
+            padding-bottom: 9px;
+        }
+    }
+}
+
+.fmenu{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    padding: 27px 0 40px;
+    &__item{
+        border-right: 1px solid #7D7D7D;
+        padding-right: 5px;
+        padding-left: 6px;
+    }
+    
+    &__item:last-child{
+        border: none;
     }
 }

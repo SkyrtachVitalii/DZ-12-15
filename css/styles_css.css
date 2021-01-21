@@ -26,6 +26,9 @@ body a:hover {
   padding: 15px;
   color: #FFFFFF;
 }
+.container--advantage {
+  padding: 45px 57px 0;
+}
 
 .box {
   display: -webkit-box;
@@ -173,6 +176,89 @@ body a:hover {
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
+}
+
+.advantage {
+  background-image: url(../images/speedmetr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.advantage__card {
+  height: 88px;
+  margin-top: 65px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  border-bottom: 4px solid #EDBB99;
+}
+.advantage__card:first-child {
+  margin-left: 111px;
+}
+.advantage__card:last-child {
+  margin-right: 111px;
+}
+.advantage__item--speed {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.footer {
+  background: #313131;
+  padding: 0;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 48px 240px 33px;
+}
+
+.copyright {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #7D7D7D;
+}
+.copyright__item--address {
+  padding-bottom: 9px;
+}
+
+.fmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  padding: 27px 0 40px;
+}
+.fmenu__item {
+  border-right: 1px solid #7D7D7D;
+  padding-right: 5px;
+  padding-left: 6px;
+}
+.fmenu__item:last-child {
+  border: none;
 }
 
 /*# sourceMappingURL=styles_css.css.map */
