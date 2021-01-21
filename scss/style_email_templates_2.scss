@@ -160,3 +160,61 @@ body{
 .card:nth-child(2n-1){
     padding-right: 75px;
 }
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social{
+    padding: 32px 36px 38px 84px;
+    &__title{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    &__text{
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 20px;
+        color: #515759;
+        width: 142px;
+    }
+    &__links{
+        display: flex;
+        padding-top: 21px;
+        &--item{
+            padding-right: 31px;
+        }
+    }
+}
+
+.contact{
+    padding: 32px 36px 38px 84px;
+    &__title{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    &__text{
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 20px;
+        color: #515759;
+        width: 97px;
+    }
+    &__number{
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 20px;
+        color: #515759;
+        padding-top: 16px;
+        padding-bottom: 8px;
+    }
+    &__site a{
+        font-size: 11px;
+        line-height: 20px;
+        color: #1890FF;
+        text-decoration: none;
+    }
+}

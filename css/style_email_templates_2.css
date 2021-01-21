@@ -127,4 +127,51 @@ body {
 .card:nth-child(2n-1) {
   padding-right: 75px; }
 
+.footer {
+  display: flex;
+  flex-wrap: wrap; }
+
+.social {
+  padding: 32px 36px 38px 84px; }
+  .social__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px; }
+  .social__text {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    color: #515759;
+    width: 142px; }
+  .social__links {
+    display: flex;
+    padding-top: 21px; }
+    .social__links--item {
+      padding-right: 31px; }
+
+.contact {
+  padding: 32px 36px 38px 84px; }
+  .contact__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px; }
+  .contact__text {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    color: #515759;
+    width: 97px; }
+  .contact__number {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 20px;
+    color: #515759;
+    padding-top: 16px;
+    padding-bottom: 8px; }
+  .contact__site a {
+    font-size: 11px;
+    line-height: 20px;
+    color: #1890FF;
+    text-decoration: none; }
+
 /*# sourceMappingURL=style_email_templates_2.css.map */
